@@ -1,0 +1,44 @@
+pipelines:
+ default:
+     - step:
+            name: Devlopment
+            image: node:alpine
+            script:
+              - echo "continuous integration"
+ branches:
+    master:
+        - step:
+            name: Build and Test
+            image: node:alpine
+            caches:
+              - node
+            script:
+              - yarn install
+    staging:
+        - step:
+            name: Build Docker Image
+            size: 2x 
+            image: asthaitdevops/pipelines-awscli
+            services:
+                - docker
+            script:             
+                - make publish_dev
+        - step:
+            name: Deploy to Staging
+            deployment: staging
+            image: atlassian/default-image:2
+            script: 
+               - envsubst < ./deployments/deployment.tpl.yml > ./deployments/deployment.yml
+               - pipe: atlassian/aws-eks-kubectl-run:2.0.0
+                 variables:
+                    AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID}
+                    AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY}
+                    AWS_DEFAULT_REGION: ${AWS_DEFAULT_REGION}
+                    CLUSTER_NAME: ${AWS_EKS_CLUSTER}
+                    KUBECTL_COMMAND: "apply"
+                    RESOURCE_PATH: "./deployments/deployment.yml"
+                    DEBUG: "true"
+definitions:
+  services:
+    docker:
+      memory: 3048
