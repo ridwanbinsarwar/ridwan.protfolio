@@ -112,22 +112,22 @@ function TrainerProfile({ data }: { data: string }) {
                                         <section id="projects" className="mt-[100px] tab:mt-[150px] flex flex-col items-center w-full tab:mr-[26px] pc:mr-[106px] scroll-mt-28">
                                             <div className="font-bold text-3xl mb-1">Projects</div>
                                             <div className="font-bold text-sm pc-sm:text-xl text-gray-400 mb-[50px] tab:mb-[55px] text-center">{"Products I've built, and businesses I am collaborating with"}</div>
-                                            <div className="flex flex-col tab:flex-row space-x-4 rounded-3xl shadow-card bg-slate-100/40">
+                                            <div className="flex flex-col tab:flex-row space-x-0 tab:space-x-4 rounded-3xl shadow-card bg-slate-100/40">
                                                 <div className="hidden tab:flex w-1/3">
                                                     <img className="rounded-3xl" src="/img/transcom.png" alt="" />
                                                 </div>
-                                                <div className="flex-1 flex-col p-2 tab:p-8 mb-4 tab:mb-0">
+                                                <div className="flex-1 flex-col p-3 tab:p-8 mb-4 tab:mb-0">
                                                     <div className="font-bold mb-1">Transcom Digital</div>
                                                     <div className="font-medium mb-5 tab:mb-9 text-sm tab:text-base">
                                                         {
                                                             'Lorem Ipsum is simply dummy text of the printing and typesetting industry. took a galley of type and scrambled it to make not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop software like Aldus PageMaker including versions of Lorem Ipsum'
                                                         }
                                                     </div>
-                                                    <button className="px-3 py-3 border-portfolio-settings rounded-3xl border-2 font-medium text-sm">View Product</button>
+                                                    <button className="px-3 py-3  border-portfolio-settings rounded-3xl border-2 font-medium text-sm">View Product</button>
                                                 </div>
                                             </div>
-                                            <div className="flex flex-col tab:flex-row space-x-4 rounded-3xl shadow-card  mt-[35px] bg-slate-100/40">
-                                                <div className="flex-1 flex-col p-2 tab:p-8 mb-4 tab:mb-0">
+                                            <div className="flex flex-col tab:flex-row space-x-0 tab:space-x-4 rounded-3xl shadow-card  mt-[35px] bg-slate-100/40">
+                                                <div className="flex-1 flex-col p-3 tab:p-8 mb-4 tab:mb-0">
                                                     <div className="font-bold mb-1">Transcom Digital</div>
                                                     <div className="font-medium mb-5 tab:mb-9 text-sm tab:text-base">
                                                         {
@@ -140,11 +140,11 @@ function TrainerProfile({ data }: { data: string }) {
                                                     <img className="rounded-3xl" src="/img/transcom.png" alt="" />
                                                 </div>
                                             </div>
-                                            <div className="flex flex-col tab:flex-row space-x-4 rounded-3xl shadow-card  mt-[35px] bg-slate-100/40">
+                                            <div className="flex flex-col tab:flex-row space-x-0 tab:space-x-4 rounded-3xl shadow-card  mt-[35px] bg-slate-100/40">
                                                 <div className="hidden tab:flex w-1/3 rounded-3xl ">
                                                     <img className="rounded-3xl" src="/img/transcom.png" alt="" />
                                                 </div>
-                                                <div className="flex-1 flex-col p-2 tab:p-8 mb-4 tab:mb-0">
+                                                <div className="flex-1 flex-col p-3 tab:p-8 mb-4 tab:mb-0">
                                                     <div className="font-bold mb-1">Transcom Digital</div>
                                                     <div className="font-medium mb-5 tab:mb-9 text-sm tab:text-base">
                                                         {
@@ -234,8 +234,8 @@ function TrainerProfile({ data }: { data: string }) {
                                             <div className="font-bold text-3xl  mb-[50px] tab:mb-[55px]">Achievements</div>
                                             <div className="container mx-auto ">
                                                 <div className="flex flex-col justify-center">
-                                                    <div className="flex flex-col justify-center space-x-4 rounded-3xl shadow-card p-2 tab:p-4 bg-slate-100/40">
-                                                        <div className="flex-1 flex-col p-2 tab:p-5">
+                                                    <div className="flex flex-col justify-center space-x-4 rounded-3xl shadow-card p-3 tab:p-4 bg-slate-100/40">
+                                                        <div className="flex-1 flex-col p-3 tab:p-5">
                                                             <div className="font-bold text-sm pc-sm:text-base ">1st runner up at Britannia Inter University Programming Contest 2019</div>
                                                             <div className="font-semibold text-sm text-gray-400 mb-1">{'Team name : UIU_Sinusoidal'}</div>
                                                         </div>
@@ -244,8 +244,8 @@ function TrainerProfile({ data }: { data: string }) {
                                             </div>
                                             <div className="container mx-auto mt-[35px]">
                                                 <div className="flex flex-col justify-center">
-                                                    <div className="flex flex-col justify-center  space-x-4 rounded-3xl shadow-card p-2 tab:p-4 bg-slate-100/40">
-                                                        <div className="flex-1 flex-col p-2 tab:p-5">
+                                                    <div className="flex flex-col justify-center  space-x-4 rounded-3xl shadow-card p-3 tab:p-4 bg-slate-100/40">
+                                                        <div className="flex-1 flex-col p-3 tab:p-5">
                                                             <div className="font-bold text-sm pc-sm:text-base ">46th at ICPC DHAKA REGIONAL Preliminary Contest 2019</div>
                                                             <div className="font-semibold text-sm text-gray-400 mb-6">{'Team name: UIU_CG_or_CP'}</div>
                                                             <Link target="blank" href={'https://icpc.global/ICPCID/3YMPKNB4NMOO'}>
@@ -257,8 +257,8 @@ function TrainerProfile({ data }: { data: string }) {
                                             </div>
                                             <div className="container mx-auto mt-[35px]">
                                                 <div className="flex flex-col justify-center">
-                                                    <div className="flex flex-col justify-center  space-x-4 rounded-3xl shadow-card p-2 tab:p-4 bg-slate-100/40">
-                                                        <div className="flex-1 flex-col p-2 tab:p-5">
+                                                    <div className="flex flex-col justify-center  space-x-4 rounded-3xl shadow-card p-3 tab:p-4 bg-slate-100/40">
+                                                        <div className="flex-1 flex-col p-3 tab:p-5">
                                                             <div className="font-bold text-sm pc-sm:text-base ">45th at ICPC DHAKA REGIONAL 2019</div>
                                                             <div className="font-semibold text-sm text-gray-400 mb-6">{'Team name: UIU_CG_or_CP'}</div>
                                                             <Link target="blank" href={'https://icpc.global/ICPCID/3YMPKNB4NMOO'}>
