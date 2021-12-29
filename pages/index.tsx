@@ -9,7 +9,7 @@ function TrainerProfile({ data }: { data: string }) {
         <>
             <MetaFields title={'Ridwan Portfolio'} />
 
-            <div className="w-full flex flex-col justify-between items-center h-[100vh]">
+            <div className="w-full flex flex-col justify-between items-center h-[100vh] select-none">
                 <div className="w-full flex flex-col items-center">
                     <div className="sticky flex items-center top-0 w-full z-50 bg-white h-[78px] shadow-[0px_10px_15px_0px_rgba(0,0,0,0.10)] pc-lg:mb-[50px] ">
                         <div className="w-full flex justify-center">
@@ -213,7 +213,7 @@ function TrainerProfile({ data }: { data: string }) {
                                                     <div className="flex flex-col justify-center items-center space-x-4 rounded-3xl shadow-card p-2 tab:p-4 bg-slate-100/40">
                                                         <div className="flex flex-col items-center ">
                                                             <img className="rounded-3xl h-[150px] w-[150px] mb-3" src="/img/UIU-Logo.png" alt="" />
-                                                            <div className="font-medium">United International University</div>
+                                                            <div className="font-medium mb-2">United International University</div>
                                                         </div>
                                                         <div className="flex-1 flex-col p-2 tab:p-5">
                                                             <div className="font-bold ">
@@ -234,34 +234,36 @@ function TrainerProfile({ data }: { data: string }) {
                                             <div className="font-bold text-3xl  mb-[50px] tab:mb-[55px]">Achievements</div>
                                             <div className="container mx-auto ">
                                                 <div className="flex flex-col justify-center">
-                                                    <div className="flex flex-col justify-center items-center space-x-4 rounded-3xl shadow-card p-2 tab:p-4 bg-slate-100/40">
+                                                    <div className="flex flex-col justify-center space-x-4 rounded-3xl shadow-card p-2 tab:p-4 bg-slate-100/40">
                                                         <div className="flex-1 flex-col p-2 tab:p-5">
-                                                            <div className="font-bold ">
-                                                                <span className="">Bachelor of Science in</span> CSE
-                                                            </div>
-                                                            <div className="font-semibold text-sm text-gray-400 mb-1">March 2021</div>
-                                                            <div className="font-medium ">
-                                                                {
-                                                                    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. took a galley of type and scrambled it to make not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop software like Aldus PageMaker including versions of Lorem Ipsum'
-                                                                }
-                                                            </div>
+                                                            <div className="font-bold text-sm pc-sm:text-base ">1st runner up at Britannia Inter University Programming Contest 2019</div>
+                                                            <div className="font-semibold text-sm text-gray-400 mb-1">{'Team name : UIU_Sinusoidal'}</div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div className="container mx-auto mt-[35px]">
                                                 <div className="flex flex-col justify-center">
-                                                    <div className="flex flex-col justify-center items-center space-x-4 rounded-3xl shadow-card p-2 tab:p-4 bg-slate-100/40">
+                                                    <div className="flex flex-col justify-center  space-x-4 rounded-3xl shadow-card p-2 tab:p-4 bg-slate-100/40">
                                                         <div className="flex-1 flex-col p-2 tab:p-5">
-                                                            <div className="font-bold ">
-                                                                <span className="">Bachelor of Science in</span> CSE
-                                                            </div>
-                                                            <div className="font-semibold text-sm text-gray-400 mb-1">March 2021</div>
-                                                            <div className="font-medium ">
-                                                                {
-                                                                    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. took a galley of type and scrambled it to make not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop software like Aldus PageMaker including versions of Lorem Ipsum'
-                                                                }
-                                                            </div>
+                                                            <div className="font-bold text-sm pc-sm:text-base ">46th at ICPC DHAKA REGIONAL Preliminary Contest 2019</div>
+                                                            <div className="font-semibold text-sm text-gray-400 mb-6">{'Team name: UIU_CG_or_CP'}</div>
+                                                            <Link target="blank" href={'https://icpc.global/ICPCID/3YMPKNB4NMOO'}>
+                                                                <button className="px-3 py-3  border-portfolio-settings rounded-3xl border-2 font-medium text-sm">See credential</button>
+                                                            </Link>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="container mx-auto mt-[35px]">
+                                                <div className="flex flex-col justify-center">
+                                                    <div className="flex flex-col justify-center  space-x-4 rounded-3xl shadow-card p-2 tab:p-4 bg-slate-100/40">
+                                                        <div className="flex-1 flex-col p-2 tab:p-5">
+                                                            <div className="font-bold text-sm pc-sm:text-base ">45th at ICPC DHAKA REGIONAL 2019</div>
+                                                            <div className="font-semibold text-sm text-gray-400 mb-6">{'Team name: UIU_CG_or_CP'}</div>
+                                                            <Link target="blank" href={'https://icpc.global/ICPCID/3YMPKNB4NMOO'}>
+                                                                <button className="px-3 py-3  border-portfolio-settings rounded-3xl border-2 font-medium text-sm">See credential</button>
+                                                            </Link>{' '}
                                                         </div>
                                                     </div>
                                                 </div>
