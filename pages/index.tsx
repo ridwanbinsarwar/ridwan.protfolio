@@ -14,7 +14,7 @@ function TrainerProfile({ data }: { data: string }) {
                     <div className="sticky flex items-center top-0 w-full z-50 bg-white h-[78px] shadow-[0px_10px_15px_0px_rgba(0,0,0,0.10)] pc-lg:mb-[50px] ">
                         <div className="w-full flex justify-center">
                             <div className="w-full flex flex-col justify-center mx-[15px] tab:mx-[40px] pc:mx-[80px] pc-lg:mx-0 " style={{ maxWidth: '1300px' }}>
-                                <div className="flex justify-end tab:justify-between">
+                                <div className="flex justify-end tab:justify-between select-none">
                                     <div className="hidden tab:block font-bold p-4">
                                         <div className="font bold text-sm">Ridwan Bin Sarwar</div>
                                         <div className="text-[10px] text-[#B7B7B9]">Software Engineer</div>
@@ -61,9 +61,11 @@ function TrainerProfile({ data }: { data: string }) {
                                             </div>
 
                                             <div className="text-[32px] mb-[20px] font-bold">Ridwan Bin Sarwar</div>
-                                            <div className="text-[14px]  font-medium leading-6">
-                                                <span className="font-bold ">Hi there!</span> I'm Ridwan, a Software Engineer, primarily working with JavaScript and c#, with a keen interest in Distributed Systems. Although skeptical about humans and machines alike, I'm enthusiastic about
-                                                collaborating and working on ideas that have real impacts!
+                                            <div className="text-[14px] tab:text-base  font-medium leading-6">
+                                                <span className="font-bold ">Hi there!</span>{' '}
+                                                {
+                                                    "I'm Ridwan, a Software Engineer, primarily working with JavaScript and c#, with a keen interest in Distributed Systems. Although skeptical about humans and machines alike, I'm enthusiastic about collaborating and working on ideas that have real impacts!"
+                                                }
                                             </div>
                                             <Link href={'mailto:ridwan.bin.sarwar@gmail.com'}>
                                                 <button className="bg-portfolio-teach p-[15px] rounded-[20px] font-semibold text-white my-[30px]">Contact Me</button>
@@ -114,25 +116,25 @@ function TrainerProfile({ data }: { data: string }) {
                                                 <div className="hidden tab:flex w-1/3">
                                                     <img className="rounded-3xl" src="/img/transcom.png" alt="" />
                                                 </div>
-                                                <div className="flex-1 flex-col p-9">
+                                                <div className="flex-1 flex-col p-2 tab:p-8 mb-4 tab:mb-0">
                                                     <div className="font-bold mb-1">Transcom Digital</div>
-                                                    <div className="font-medium mb-9">
+                                                    <div className="font-medium mb-5 tab:mb-9 text-sm tab:text-base">
                                                         {
                                                             'Lorem Ipsum is simply dummy text of the printing and typesetting industry. took a galley of type and scrambled it to make not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop software like Aldus PageMaker including versions of Lorem Ipsum'
                                                         }
                                                     </div>
-                                                    <button className="px-3 py-3 -mb-5 border-portfolio-settings rounded-3xl border-2 font-medium text-sm">View Product</button>
+                                                    <button className="px-3 py-3 border-portfolio-settings rounded-3xl border-2 font-medium text-sm">View Product</button>
                                                 </div>
                                             </div>
                                             <div className="flex flex-col tab:flex-row space-x-4 rounded-3xl shadow-card  mt-[35px] bg-slate-100/40">
-                                                <div className="flex-1 flex-col p-9">
+                                                <div className="flex-1 flex-col p-2 tab:p-8 mb-4 tab:mb-0">
                                                     <div className="font-bold mb-1">Transcom Digital</div>
-                                                    <div className="font-medium mb-9">
+                                                    <div className="font-medium mb-5 tab:mb-9 text-sm tab:text-base">
                                                         {
                                                             'Lorem Ipsum is simply dummy text of the printing and typesetting industry. took a galley of type and scrambled it to make not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop software like Aldus PageMaker including versions of Lorem Ipsum'
                                                         }
                                                     </div>
-                                                    <button className="px-3 py-3 -mb-5 border-portfolio-settings rounded-3xl border-2 font-medium text-sm">View Product</button>
+                                                    <button className="px-3 py-3  border-portfolio-settings rounded-3xl border-2 font-medium text-sm">View Product</button>
                                                 </div>
                                                 <div className="hidden tab:flex w-1/3  rounded-3xl ">
                                                     <img className="rounded-3xl" src="/img/transcom.png" alt="" />
@@ -142,14 +144,14 @@ function TrainerProfile({ data }: { data: string }) {
                                                 <div className="hidden tab:flex w-1/3 rounded-3xl ">
                                                     <img className="rounded-3xl" src="/img/transcom.png" alt="" />
                                                 </div>
-                                                <div className="flex-1 flex-col p-9">
+                                                <div className="flex-1 flex-col p-2 tab:p-8 mb-4 tab:mb-0">
                                                     <div className="font-bold mb-1">Transcom Digital</div>
-                                                    <div className="font-medium mb-9">
+                                                    <div className="font-medium mb-5 tab:mb-9 text-sm tab:text-base">
                                                         {
                                                             'Lorem Ipsum is simply dummy text of the printing and typesetting industry. took a galley of type and scrambled it to make not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop software like Aldus PageMaker including versions of Lorem Ipsum'
                                                         }
                                                     </div>
-                                                    <button className="px-3 py-3 -mb-5 border-portfolio-settings rounded-3xl border-2 font-medium text-sm">View Product</button>
+                                                    <button className="px-3 py-3  border-portfolio-settings rounded-3xl border-2 font-medium text-sm">View Product</button>
                                                 </div>
                                             </div>
                                         </section>
