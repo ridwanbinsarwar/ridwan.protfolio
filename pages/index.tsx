@@ -182,42 +182,42 @@ function TrainerProfile({ data }: { data: string }) {
                                                             <div className="flex flex-col items-center">
                                                                 {/* <img className="w-14 h-14" src={stack.icon} alt={stack.alt} /> */}
                                                                 <div className=" font-semibold mt-2">React</div>
-                                                                <div className="font-medium text-base mt-5">About 1 year</div>
+                                                                <div className="font-medium text-sm tab:text-base mt-5">About 1 year</div>
                                                             </div>
                                                         </div>
                                                         <div className="p-3 rounded-l-xl rounded-t-xl flex justify-around items-center bg-slate-100 ">
                                                             <div className="flex flex-col items-center">
                                                                 {/* <img className="w-14 h-14" src={stack.icon} alt={stack.alt} /> */}
                                                                 <div className=" font-semibold mt-2">Next.js</div>
-                                                                <div className="font-medium text-base mt-5">About 1 year</div>
+                                                                <div className="font-medium text-sm tab:text-base mt-5">About 1 year</div>
                                                             </div>
                                                         </div>
                                                         <div className="p-3 rounded-l-xl rounded-t-xl flex justify-around items-center bg-slate-100 ">
-                                                            <div className="flex flex-col items-center">
+                                                            <div className="flex flex-col items-center text-center">
                                                                 {/* <img className="w-14 h-14" src={stack.icon} alt={stack.alt} /> */}
                                                                 <div className=" font-semibold mt-2">Node.js</div>
-                                                                <div className="font-medium text-base mt-5">About 6 months</div>
+                                                                <div className="font-medium text-sm tab:text-base mt-5">About 6 months</div>
                                                             </div>
                                                         </div>
-                                                        <div className="p-3 rounded-l-xl rounded-t-xl flex justify-around items-center bg-slate-100 ">
-                                                            <div className="flex flex-col items-center">
+                                                        <div className="p-3 rounded-l-xl rounded-t-xl flex justify-around items-center text-center bg-slate-100 ">
+                                                            <div className="flex flex-col items-center text-center">
                                                                 {/* <img className="w-14 h-14" src={stack.icon} alt={stack.alt} /> */}
                                                                 <div className=" font-semibold mt-2">.NET Core</div>
-                                                                <div className="font-medium text-base mt-5">About 1 year</div>
+                                                                <div className="font-medium text-sm tab:text-base mt-5">About 1 year</div>
                                                             </div>
                                                         </div>
-                                                        <div className="p-3 rounded-l-xl rounded-t-xl flex justify-around items-center bg-slate-100 ">
-                                                            <div className="flex flex-col items-center">
+                                                        <div className="p-3 rounded-l-xl rounded-t-xl flex justify-around items-center text-center bg-slate-100 ">
+                                                            <div className="flex flex-col items-center text-center">
                                                                 {/* <img className="w-14 h-14" src={stack.icon} alt={stack.alt} /> */}
                                                                 <div className=" font-semibold mt-2">MongoDB</div>
-                                                                <div className="font-medium text-base mt-5">About 1 year</div>
+                                                                <div className="font-medium text-sm tab:text-base mt-5">About 1 year</div>
                                                             </div>
                                                         </div>
-                                                        <div className="p-3 rounded-l-xl rounded-t-xl flex justify-around items-center bg-slate-100 ">
-                                                            <div className="flex flex-col items-center">
+                                                        <div className="p-3 rounded-l-xl rounded-t-xl flex justify-around items-center text-center bg-slate-100 ">
+                                                            <div className="flex flex-col items-center text-center">
                                                                 {/* <img className="w-14 h-14" src={stack.icon} alt={stack.alt} /> */}
                                                                 <div className=" font-semibold mt-2">Elasticsearch</div>
-                                                                <div className="font-medium text-base mt-5">About 3 months</div>
+                                                                <div className="font-medium text-sm tab:text-base mt-5">About 3 months</div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -228,12 +228,12 @@ function TrainerProfile({ data }: { data: string }) {
                                             <div className="font-bold text-3xl  mb-[50px] tab:mb-[55px]">Education</div>
                                             <div className="container mx-auto ">
                                                 <div className="flex flex-col">
-                                                    <div className="flex flex-col  space-x-4 rounded-3xl shadow-card p-2 tab:p-4 bg-slate-100/40">
+                                                    <div className="flex flex-col  rounded-3xl shadow-card p-3 tab:p-4 bg-slate-100/40">
                                                         <div className="flex flex-col items-center ">
                                                             <img className="rounded-3xl h-[150px] w-[150px] mb-3" src="/img/UIU-Logo.png" alt="" />
                                                             <div className="font-medium mb-2">United International University</div>
                                                         </div>
-                                                        <div className="flex-1 flex-col p-2 tab:p-5">
+                                                        <div className="flex-1 flex-col py-3 tab:p-5">
                                                             <div className="font-bold ">
                                                                 <span className="">Bachelor of Science in</span> CSE
                                                             </div>
