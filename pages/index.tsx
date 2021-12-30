@@ -64,7 +64,7 @@ function TrainerProfile({ data }: { data: string }) {
                                             <div className="text-[14px] tab:text-base  font-medium leading-6">
                                                 <span className="font-bold ">Hi there!</span>{' '}
                                                 {
-                                                    "I'm Ridwan, a Software Engineer, primarily working with JavaScript and c#, with a keen interest in Distributed Systems. Although skeptical about humans and machines alike, I'm enthusiastic about collaborating and working on ideas that have real impacts!"
+                                                    "I'm Ridwan, a Software Engineer, primarily working with React and Node.js, with a keen interest in Distributed Systems. I love building things from scratch and to turn ideas into reality. I'm enthusiastic about collaborating and working on ideas that have real impacts!"
                                                 }
                                             </div>
                                             <Link href={'mailto:ridwan.bin.sarwar@gmail.com'}>
@@ -85,6 +85,11 @@ function TrainerProfile({ data }: { data: string }) {
                                                 <Link target="blank" href={'https://cyclocoder.blogspot.com'}>
                                                     <div className=" w-[25px] h-[25px] cursor-pointer p-4 flex items-center justify-center ">
                                                         <i className="fab fa-blogger text-[25px]"></i>
+                                                    </div>
+                                                </Link>
+                                                <Link target="blank" href={'https://codeforces.com/profile/xenon_r'}>
+                                                    <div className="cursor-pointer flex items-center justify-center ">
+                                                        <img src="/img/codeforces.png" alt="codeforces" className=" h-[25px]" />
                                                     </div>
                                                 </Link>
                                             </div>
@@ -112,7 +117,24 @@ function TrainerProfile({ data }: { data: string }) {
                                         <section id="projects" className="mt-[100px] tab:mt-[150px] flex flex-col items-center w-full tab:mr-[26px] pc:mr-[106px] scroll-mt-28">
                                             <div className="font-bold text-3xl mb-1">Projects</div>
                                             <div className="font-bold text-sm pc-sm:text-xl text-gray-400 mb-[50px] tab:mb-[55px] text-center">{"Products I've built, and businesses I am collaborating with"}</div>
-                                            <div className="flex flex-col tab:flex-row space-x-0 tab:space-x-4 rounded-3xl shadow-card bg-slate-100/40">
+                                            <div className="flex flex-col tab:flex-row space-x-0 tab:space-x-4 rounded-3xl shadow-card   bg-slate-100/40">
+                                                <div className="flex-1 flex-col p-3 tab:p-8 mb-4 tab:mb-0">
+                                                    <div className="font-bold mb-1">The Pantry</div>
+                                                    <div className="font-medium text-sm tab:text-base">
+                                                        {
+                                                            'The Pantry is a food distribution service for people in need that is operated by Feeding Hawaii Together, a Hawaii-based nonprofit organization. Their high-speed tech solution enables clients to pre-shop in an e-commerce setup and to get a notification with their pickup time.'
+                                                        }
+                                                    </div>
+                                                    <div className="mt-[15px] font-bold  mb-5 tab:mb-9">The product was build using React, typescript, Next.js, .NET Core, MongoDB.</div>
+                                                    <Link target="blank" href={'https://shop.thepantry.org/'}>
+                                                        <button className="px-3 py-3  border-portfolio-settings rounded-3xl border-2 font-medium text-sm">View Product</button>
+                                                    </Link>
+                                                </div>
+                                                <div className="hidden tab:flex w-1/3  rounded-3xl ">
+                                                    <img className="rounded-3xl" src="/img/pantry.png" alt="" />
+                                                </div>
+                                            </div>
+                                            <div className="flex flex-col tab:flex-row space-x-0 tab:space-x-4 rounded-3xl mt-[40px] shadow-card bg-slate-100/40">
                                                 <div className="hidden tab:flex w-1/3">
                                                     <img className="rounded-3xl" src="/img/transcom.png" alt="" />
                                                 </div>
@@ -120,38 +142,34 @@ function TrainerProfile({ data }: { data: string }) {
                                                     <div className="font-bold mb-1">Transcom Digital</div>
                                                     <div className="font-medium mb-5 tab:mb-9 text-sm tab:text-base">
                                                         {
-                                                            'Lorem Ipsum is simply dummy text of the printing and typesetting industry. took a galley of type and scrambled it to make not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop software like Aldus PageMaker including versions of Lorem Ipsum'
+                                                            'Transcom Digitial is a Bangladesh based eCommerce offers consumers and businesses smooth and fast user experience to buy and sell electronics products. The product enables consumers to filter, shop and order products in an e-commerce setup using different online payment gateways.'
                                                         }
                                                     </div>
-                                                    <button className="px-3 py-3  border-portfolio-settings rounded-3xl border-2 font-medium text-sm">View Product</button>
+                                                    <div className="mt-[15px] font-bold  mb-3">The product was build using React, Next.js, .NET Core, MongoDB, Elasticsearch.</div>
+                                                    <div className="mt-[15px] font-medium mb-5 tab:mb-9">
+                                                        <span className="font-bold">Key contribution:</span> Improved product filter and search time by almost 50% by implementing faceted search using Elasticsearch.
+                                                    </div>
+
+                                                    <Link href={'https://app.transcomdigital.com/subcategory/television'}>
+                                                        <button className="px-3 py-3  border-portfolio-settings rounded-3xl border-2 font-medium text-sm">View Product</button>
+                                                    </Link>
                                                 </div>
                                             </div>
-                                            <div className="flex flex-col tab:flex-row space-x-0 tab:space-x-4 rounded-3xl shadow-card  mt-[35px] bg-slate-100/40">
+
+                                            <div className="flex flex-col tab:flex-row space-x-0 tab:space-x-4 rounded-3xl mt-[40px]  shadow-card bg-slate-100/40">
                                                 <div className="flex-1 flex-col p-3 tab:p-8 mb-4 tab:mb-0">
-                                                    <div className="font-bold mb-1">Transcom Digital</div>
-                                                    <div className="font-medium mb-5 tab:mb-9 text-sm tab:text-base">
-                                                        {
-                                                            'Lorem Ipsum is simply dummy text of the printing and typesetting industry. took a galley of type and scrambled it to make not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop software like Aldus PageMaker including versions of Lorem Ipsum'
-                                                        }
+                                                    <div className="font-bold mb-1">StepOut</div>
+                                                    <div className="font-medium text-sm tab:text-base">{'StepOut is a Helsinki based start-up developing an all-in-one SAAS tool empowering independent trainers in fitness, recreation and wellness to streamline their business processes.'}</div>
+                                                    <div className="mt-[15px] font-bold  mb-3">Tech stack: React, typescript, Next.js, Node.js, MongoDB.</div>
+                                                    <div className="mt-[15px] font-medium mb-5 tab:mb-9">
+                                                        <span className="font-bold">Contribution:</span> Remotely collaborating with StepOut tech team and single handedly managing the frontend. Also working in backend with another team member.
                                                     </div>
-                                                    <button className="px-3 py-3  border-portfolio-settings rounded-3xl border-2 font-medium text-sm">View Product</button>
+                                                    <Link target="blank" href={'http://app.stepout.pro/'}>
+                                                        <button className="px-3 py-3  border-portfolio-settings rounded-3xl border-2 font-medium text-sm">View Product</button>
+                                                    </Link>
                                                 </div>
                                                 <div className="hidden tab:flex w-1/3  rounded-3xl ">
-                                                    <img className="rounded-3xl" src="/img/transcom.png" alt="" />
-                                                </div>
-                                            </div>
-                                            <div className="flex flex-col tab:flex-row space-x-0 tab:space-x-4 rounded-3xl shadow-card  mt-[35px] bg-slate-100/40">
-                                                <div className="hidden tab:flex w-1/3 rounded-3xl ">
-                                                    <img className="rounded-3xl" src="/img/transcom.png" alt="" />
-                                                </div>
-                                                <div className="flex-1 flex-col p-3 tab:p-8 mb-4 tab:mb-0">
-                                                    <div className="font-bold mb-1">Transcom Digital</div>
-                                                    <div className="font-medium mb-5 tab:mb-9 text-sm tab:text-base">
-                                                        {
-                                                            'Lorem Ipsum is simply dummy text of the printing and typesetting industry. took a galley of type and scrambled it to make not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop software like Aldus PageMaker including versions of Lorem Ipsum'
-                                                        }
-                                                    </div>
-                                                    <button className="px-3 py-3  border-portfolio-settings rounded-3xl border-2 font-medium text-sm">View Product</button>
+                                                    <img className="rounded-3xl" src="/img/stepout.png" alt="" />
                                                 </div>
                                             </div>
                                         </section>
@@ -191,7 +209,7 @@ function TrainerProfile({ data }: { data: string }) {
                                                         <div className="p-3 rounded-l-xl rounded-t-xl flex justify-around items-center bg-slate-100 ">
                                                             <div className="flex flex-col items-center">
                                                                 {/* <img className="w-14 h-14" src={stack.icon} alt={stack.alt} /> */}
-                                                                <div className=" font-semibold mt-2">Mongo</div>
+                                                                <div className=" font-semibold mt-2">MongoDB</div>
                                                                 <div className="font-medium text-base mt-5">About 1 year</div>
                                                             </div>
                                                         </div>
@@ -209,8 +227,8 @@ function TrainerProfile({ data }: { data: string }) {
                                         <section id="education" className="mt-[100px] tab:mt-[150px] flex flex-col items-center w-full tab:mr-[26px] pc:mr-[106px] scroll-mt-28">
                                             <div className="font-bold text-3xl  mb-[50px] tab:mb-[55px]">Education</div>
                                             <div className="container mx-auto ">
-                                                <div className="flex flex-col justify-center">
-                                                    <div className="flex flex-col justify-center items-center space-x-4 rounded-3xl shadow-card p-2 tab:p-4 bg-slate-100/40">
+                                                <div className="flex flex-col">
+                                                    <div className="flex flex-col  space-x-4 rounded-3xl shadow-card p-2 tab:p-4 bg-slate-100/40">
                                                         <div className="flex flex-col items-center ">
                                                             <img className="rounded-3xl h-[150px] w-[150px] mb-3" src="/img/UIU-Logo.png" alt="" />
                                                             <div className="font-medium mb-2">United International University</div>
@@ -222,7 +240,7 @@ function TrainerProfile({ data }: { data: string }) {
                                                             <div className="font-semibold text-sm text-gray-400 mb-1">March 2021</div>
                                                             <div className="font-medium ">
                                                                 {
-                                                                    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. took a galley of type and scrambled it to make not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop software like Aldus PageMaker including versions of Lorem Ipsum'
+                                                                    'I have graduated from UIU with a 3.81 CGPA in Computer Science & Engineering in March 2021. During my time at UIU, I worked as a Teaching Assistant for the university CSE department for two trimester. I received full free scholarship for two times and 25-50% scholarship rest of the trimesters.'
                                                                 }
                                                             </div>
                                                         </div>
