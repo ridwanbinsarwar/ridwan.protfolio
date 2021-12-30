@@ -147,7 +147,7 @@ function TrainerProfile({ data }: { data: string }) {
                                                     </div>
                                                     <div className="mt-[15px] font-bold  mb-3">The product was build using React, Next.js, .NET Core, MongoDB, Elasticsearch.</div>
                                                     <div className="mt-[15px] font-medium mb-5 tab:mb-9">
-                                                        <span className="font-bold">Key contribution:</span> Improved product filter and search time by almost 50% by implementing faceted search using Elasticsearch.
+                                                        <span className="font-bold">Key contribution:</span> Improved product filter and search time by almost 50%, implementing faceted search using Elasticsearch.
                                                     </div>
 
                                                     <Link href={'https://app.transcomdigital.com/subcategory/television'}>
