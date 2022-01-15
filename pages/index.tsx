@@ -150,7 +150,7 @@ function TrainerProfile({ data }: { data: string }) {
                                                         <span className="font-bold">Key contribution:</span> Improved product filter and search time by almost 50%, implementing faceted search using Elasticsearch.
                                                     </div>
 
-                                                    <Link href={'https://app.transcomdigital.com/subcategory/television'}>
+                                                    <Link href={'https://transcomdigital.com'}>
                                                         <button className="px-3 py-3  border-portfolio-settings rounded-3xl border-2 font-medium text-sm">View Product</button>
                                                     </Link>
                                                 </div>
