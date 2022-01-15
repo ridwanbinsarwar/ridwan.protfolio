@@ -77,7 +77,7 @@ function TrainerProfile({ data }: { data: string }) {
                                                         <i className="fab fa-linkedin-in text-[20px]"></i>
                                                     </div>
                                                 </Link>
-                                                <Link target="blank" href={'https://www.github.com/xenon-r'}>
+                                                <Link target="blank" href={'https://www.github.com/ridwanbinsarwar'}>
                                                     <div className=" w-[20px] h-[20px] cursor-pointer p-4 flex items-center justify-center ">
                                                         <i className="fa fa-github text-[20px]"></i>
                                                     </div>
