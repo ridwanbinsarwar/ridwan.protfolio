@@ -7,7 +7,7 @@ import Footer from '@/components/Common/Footer';
 function TrainerProfile({ data }: { data: string }) {
     return (
         <>
-            <MetaFields title={'Ridwan Portfolio'} />
+            <MetaFields title={'Ridwan Bin Sarwar'} />
 
             <div className="w-full flex flex-col justify-between items-center h-[100vh] select-none">
                 <div className="w-full flex flex-col items-center">
