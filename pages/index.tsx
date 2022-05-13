@@ -44,7 +44,7 @@ function TrainerProfile({ data }: { data: string }) {
                                 <div className="relative">
                                     <div className={` mt-[58px] flex justify-center left-[50%] bg-white rounded-full`}>
                                         <div className={`w-[190px] h-[190px] pc-sm:w-[244px] pc-sm:h-[244px] relative rounded-full shadow-[0px_0px_35px_0px_rgba(0,0,0,0.35)]`}>
-                                            <Image src={'/img/ridwan.jpg'} alt={'trainer-image'} title={'trainer-image'} layout="fill" objectFit="cover" className="rounded-full" />
+                                            <Image src={'/img/ridwan.jpg'} alt={'Ridwan Bin Sarawr'} title={'Ridwan Bin Sarawr'} layout="fill" objectFit="cover" className="rounded-full" />
                                             <div className="absolute top-0 w-full h-full bg-gray-300 animate-pulse  pc-lg:rounded-full" style={{ zIndex: -1 }}></div>
                                         </div>
                                     </div>
