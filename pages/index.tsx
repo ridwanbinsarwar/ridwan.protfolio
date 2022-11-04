@@ -164,7 +164,7 @@ function TrainerProfile({ data }: { data: string }) {
                                                     <div className="mt-[15px] font-medium mb-5 tab:mb-9">
                                                         <span className="font-bold">Contribution:</span> Remotely collaborating with StepOut tech team and single handedly managing the frontend. Also working in backend with another team member.
                                                     </div>
-                                                    <Link target="blank" href={'http://app.stepout.pro/'}>
+                                                    <Link target="blank" href={'https://stepout.pro'}>
                                                         <button className="px-3 py-3  border-portfolio-settings rounded-3xl border-2 font-medium text-sm">View Product</button>
                                                     </Link>
                                                 </div>
